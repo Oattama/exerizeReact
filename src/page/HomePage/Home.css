@@ -1,0 +1,92 @@
+.header-home{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 90px;
+    z-index: 100px;
+}
+.navbar-home{
+    background-image: linear-gradient(180deg, rgba(62, 62, 62, 1) 0%, rgba(43, 43, 43, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    margin-left: -18rem;
+    align-items: center;
+}
+.menu-home{
+    display: flex;
+    margin-left: 54.5rem;
+}
+.menu-home li{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    list-style: none;
+}
+.navbar-home ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.home-bg{
+    filter: blur(1px);
+    height: 49.1rem;
+    width: 113.8rem;
+}
+.user-profile{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 18rem;
+    color: rgb(255, 255, 255);
+}
+.user-info{
+    display: block;
+    justify-content: center;
+
+}
+.user-point{
+    display: flex;
+    justify-content: center;
+}
+.user-body .user-text-name{
+    font-size: 1.5rem;
+}
+.user-body .user-text{
+    font-size: 1rem;
+}
+.character-info .exp-bar{
+    position: absolute;
+    margin-top: -44rem;
+    margin-left: 30rem;
+    justify-content: center;
+    display: flex;
+}
+.exp-bar .level-text{
+    margin-right: 20px;
+}
+.character-info .exp-bar p{
+    font-size: 2.5rem;
+}
+.character-info .exp-bar .exp{
+    margin-top: 20px;
+    padding-right: 30px;
+}
+.character {
+    position: absolute;
+    height: 40rem;
+    margin-top: -40rem;
+    margin-left: 35rem;
+    display: flex;
+}
+
+.all{
+    display: flex;
+}
+
+.all .pic{
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 5rem;
+    display: flex;
+}
+
+

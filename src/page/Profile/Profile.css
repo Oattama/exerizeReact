@@ -1,0 +1,88 @@
+.popup-profile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner-profile{
+    position: relative;
+    display: flex;
+    width: 62.5rem;
+    height: 40.5rem;
+    background-image: linear-gradient(180deg, rgba(62, 62, 62, 1) 0%, rgba(43, 43, 43, 1) 100%);
+    
+}
+.popup-inner-profile .close-popup{
+    font-weight: bold;
+    font-size: 3rem;
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    
+}
+.user-body-profile{
+    margin-left: 1rem;
+    margin-top: -7em;
+    justify-content: center;
+    align-items: center;
+    
+}
+.user-level{
+    display: flex;
+    font-size: 2rem;
+}
+.user-level .label{
+    margin-right: 2rem;
+}
+.description .form{
+    display: flex;
+    font-size: 2rem;
+}
+.description .form .label{
+    margin-right: 5rem;
+}
+.description .form .value{
+    border-radius: 10px;
+    border-style: inset;
+    
+}
+.button-profile-A{
+    position: absolute;
+    margin-top: 68rem;
+    display: flex;
+}
+.button-profile-B{
+    position: static;
+    margin-left: 10rem;
+
+}
+.user-pic{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.user-pic .pic2{
+    margin-top: 20rem;
+    height: 14rem;
+    width: 13rem;
+    display: flex;
+
+}
+.label-lv{
+    margin-left: 3rem;
+}
+.value-1{
+    margin-left: 4rem;
+}
+.value-3{
+    margin-left: 2.8rem;
+}
+.label-1{
+    margin-left: 4.7rem;
+}

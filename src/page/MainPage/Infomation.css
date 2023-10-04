@@ -1,0 +1,8 @@
+.news{
+    padding-left: 40px;
+    display: flex;
+}
+.news a{
+    padding-left: 10px;
+    font-size: 2rem;
+}

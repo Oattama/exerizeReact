@@ -1,0 +1,80 @@
+.popup-mission {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner-mission{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 80rem;
+    max-height: 45rem;
+    background-image: linear-gradient(180deg, rgba(62, 62, 62, 1) 0%, rgba(43, 43, 43, 1) 100%);
+}
+.popup-inner-mission .close-popup{
+    font-weight: bold;
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: rgb(255, 255, 255);  
+}
+
+.mission-info{
+    margin: 1.25rem;
+    width: 75rem;
+    height: 34.375rem;
+    overflow-y: scroll;
+}
+
+.mission-nav{
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.mission-nav-list{
+    height: 3.125rem;
+    width: 12.5rem;
+    padding: 0.438rem;
+    text-align: center;
+    background-color: #fff;
+    border-style: outset;
+}
+
+.mission-nav-list p{
+    color: rgb(255, 255, 255);
+}
+
+.mission-card{
+    padding: 1.25rem;
+}
+
+.card-text-target{
+    display: flex;
+}
+
+.card-text-reward{
+    display: flex;
+}
+
+.mb-1.p-0 .nav-link{
+    margin-left: -1rem;
+    background-image: linear-gradient(180deg, rgb(187, 187, 187) 0%, rgba(43, 43, 43, 1) 100%);
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+   }
+.mb-1.p-0 .nav-link.active{
+    background-image: linear-gradient(180deg, rgb(163, 163, 163) 0%, rgba(43, 43, 43, 1) 100%);
+}
+   

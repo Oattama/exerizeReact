@@ -1,0 +1,8 @@
+h3 {
+    font-size: 1rem;
+  }
+img.small {
+    position: relative;
+    max-height: 8rem;
+}
+

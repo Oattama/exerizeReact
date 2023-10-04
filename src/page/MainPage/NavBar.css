@@ -1,0 +1,56 @@
+
+.header {
+    background-image: linear-gradient(180deg, rgba(62, 62, 62, 1) 0%, rgba(43, 43, 43, 1) 100%);
+       animation: gradient 5s infinite;
+    height: 5.5rem
+    
+}
+
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 20rem;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-top: 1.5rem;
+    padding-right: 2rem;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.menu li b {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.Logo-header{
+    height: 5rem;
+    width: 4rem;
+    margin-left: 1.5rem;
+}
+
+.exerize{
+   margin-top: 1rem;
+   margin-left: -75rem;
+   color: #fff;
+   font-size: 2rem;
+}

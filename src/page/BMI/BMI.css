@@ -1,0 +1,32 @@
+.BMI img {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    height: 25rem;
+    display: flex;
+   
+}
+
+.type {
+    position: absolute;
+}
+
+.type .male{
+    margin-left: -10rem;
+    margin-top: -22rem;
+}
+
+.type .female{
+    margin-left: 56rem;
+    margin-top: -25rem;
+}
+.calculateBMI {
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.calculateBMI p {
+    padding: 2rem;
+}

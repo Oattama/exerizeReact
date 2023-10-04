@@ -1,0 +1,19 @@
+.history-info{
+    margin: 1rem;
+    width: 73rem;
+    height: 35rem;
+    overflow-y: scroll;
+}
+
+
+.history-card{
+    padding: 1.25rem;
+}
+
+.card-text-target{
+    display: flex;
+}
+
+.card-text-reward{
+    display: flex;
+}

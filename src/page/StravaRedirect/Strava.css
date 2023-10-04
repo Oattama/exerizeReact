@@ -1,0 +1,23 @@
+.home-ST{   
+    height: 54.7rem;
+    width: 112.4rem;
+    display: flex;
+}
+.Strava-bg{
+    position: absolute;
+    height: 50rem;
+    display: flex;
+}
+.strava-content{
+    position: absolute;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    margin-left: 32.5rem;
+    margin-top: -40rem;
+}
+
+.strava-img{
+    height: 10rem;
+    display: flex;
+    margin-left: 4rem;
+}

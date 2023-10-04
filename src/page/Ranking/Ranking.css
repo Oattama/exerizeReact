@@ -1,0 +1,96 @@
+.popup-ranking {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-inner-ranking{
+    position: relative;
+    padding: 1.25rem;
+    width: 87.5rem;
+    height: 46.875rem;
+    background-image: linear-gradient(180deg, rgba(62, 62, 62, 1) 0%, rgba(43, 43, 43, 1) 100%);
+}
+.popup-inner-ranking .close-popup{
+    font-weight: bold;
+    font-size: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: rgb(255, 255, 255); 
+}
+
+.searchBox{
+    display: flex;
+    justify-content: right;
+    margin-right: 3.75rem;
+    margin-bottom: 0.438rem;
+}
+.searchBox input{
+    height: 3.125rem;
+    width: 25rem;
+}
+
+.ranking-info{
+    margin-left: 6.25rem;
+    width: 75rem;
+    height: 25rem;
+    font-weight: bolder;
+    overflow-y: scroll;
+}
+
+.ranking-card{
+    padding: 1.25rem;
+}
+
+.ranking-card .card-body .card-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.topRank {
+    align-items: center;
+    display: flex;
+    margin-left: 25rem;
+}
+.topRank p {
+    padding: 0.188rem;
+    margin-left: 2.7rem;
+    font-size: 1.563rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 0);
+}
+.topRank1 p{
+    padding: 0.188rem;
+    margin-left: 2.8rem;
+    font-size: 1.563rem;
+    color: rgb(255, 255, 255);
+}
+.topRank2 p{
+    padding: 0.188rem;
+    margin-left: 2.9rem;
+    font-size: 1.563rem;
+    color: rgb(220, 164, 43);
+}
+
+.topRank .topThree img{
+    margin-right: 5rem;
+    height: 9.375rem;
+    width: 9.375rem;
+}
+.card-text .user {
+    display: flex;
+    font-size: 1.25rem;
+}
+.card-text .user img {
+    margin-right: 6.25rem;
+    height: 5rem;
+    width: 5rem;
+}
